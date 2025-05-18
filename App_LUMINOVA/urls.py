@@ -42,7 +42,8 @@ urlpatterns = [
     path('ordenes/', ordenes, name='ordenes'),
     path('planificacion/', planificacion, name='planificacion'),
     path('reportes/', reportes, name='reportes'),
-    path("desglose", desglose, name="desglose"),
+    path("desglose/", desglose, name="desglose"),
     path("seguimiento/", seguimiento, name="seguimiento"),
-    path("tracking/", tracking, name="tracking")
+    path("tracking/", tracking, name="tracking"),
+    path("desglose2/", desglose2, name="desglose2")
 ]

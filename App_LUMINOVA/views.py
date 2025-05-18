@@ -85,3 +85,6 @@ def seguimiento(req):
 
 def tracking(req):
     return render(req, "tracking.html")
+
+def desglose2(req):
+    return render(req, "desglose2.html")
