@@ -88,3 +88,6 @@ def tracking(req):
 
 def desglose2(req):
     return render(req, "desglose2.html")
+
+def desglose3(req):
+    return render(req, "desglose3.html")

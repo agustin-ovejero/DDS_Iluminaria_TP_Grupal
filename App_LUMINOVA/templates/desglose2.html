@@ -60,12 +60,9 @@
             <td class="text-center align-middle">22/07/2025</td>
             <td class="text-center align-middle">600</td>
             <td class="text-center align-middle">
-              <button class="proveedor-badge border-0"
-               style="cursor: pointer;"
-                data-bs-toggle="modal"
-                data-bs-target="#modalProveedor">
+              <a href="{% url 'App_LUMINOVA:desglose3' %}" class="proveedor-badge border-0" style="cursor: pointer; text-decoration: none;">
                 Seleccionar proveedores
-              </button>
+               </a>
             </td>
           </tr>
           <tr>
@@ -114,73 +111,6 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalProveedor" tabindex="-1" aria-labelledby="modalProveedorLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content">
-
-      <div class="modal-body pt-4">
-        <div class="container px-0">
-          <div class="d-flex flex-column align-items-center">
-
-            <h5 class="text-center mb-3 w-100" style="max-width: 1000px;">Seleccionar proveedor</h5>
-
-    <div class="table-responsive" style="max-width: 1000px;">
-      <table class="table table-bordered" style="margin: 0 auto; width: 100%;">
-        <thead class="table-primary">
-          <tr>
-            <th colspan="7" class="text-center align-middle fs-4">Modulo led BXRC-30E10K00-B-73-SE</th>
-          </tr>
-          <tr>
-            <th class="text-center align-middle">ID</th>
-            <th class="text-center align-middle">Nombre Proveedor</th>
-            <th class="text-center align-middle">Categoria</th>
-            <th class="text-center align-middle">Precio Unitario(US)</th>
-            <th class="text-center align-middle">Precio Total(US)</th>
-            <th class="text-center align-middle">Tiempo de envío</th>
-            <th class="text-center align-middle">Selección</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="text-center align-middle">1</td>
-            <td class="text-center align-middle">Nemark</td>
-            <td class="text-center align-middle">Modulos Led</td>
-            <td class="text-center align-middle">0,208</td>
-            <td class="text-center align-middle">124,8</td>
-            <td class="text-center align-middle">Entre 2 a 4 días</td>
-            <td class="text-center align-middle">
-              <input type="radio" name="proveedorSeleccionado">
-            </td>
-          </tr>
-          <tr>
-            <td class="text-center align-middle">2</td>
-            <td class="text-center align-middle">Alibaba</td>
-            <td class="text-center align-middle">Modulos Led</td>
-            <td class="text-center align-middle">5,35</td>
-            <td class="text-center align-middle">3.210</td>
-            <td class="text-center align-middle">Entre 10 días</td>
-            <td class="text-center align-middle">
-              <input type="radio" name="proveedorSeleccionado">
-            </td>
-
-          </tr>
-          <tr>
-            <td class="text-center align-middle">3</td>
-            
-            <td class="text-center align-middle">Made in China</td>
-            <td class="text-center align-middle">Modulos Led</td>
-            <td class="text-center align-middle">2,00</td>
-            <td class="text-center align-middle">1,200</td>
-            <td class="text-center align-middle">Entre 30/40 días</td>
-            <td class="text-center align-middle">
-              <input type="radio" name="proveedorSeleccionado">
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
 </div>
   <div class="modal-footer d-flex justify-content-center gap-3 py-3">
     <button type="button" class="btn btn-secondary px-4" data-bs-dismiss="modal">Cerrar</button>

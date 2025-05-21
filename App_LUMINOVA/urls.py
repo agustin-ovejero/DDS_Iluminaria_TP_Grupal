@@ -45,5 +45,6 @@ urlpatterns = [
     path("desglose/", desglose, name="desglose"),
     path("seguimiento/", seguimiento, name="seguimiento"),
     path("tracking/", tracking, name="tracking"),
-    path("desglose2/", desglose2, name="desglose2")
+    path("desglose2/", desglose2, name="desglose2"),
+    path("desglose3/", desglose3, name="desglose3")
 ]
